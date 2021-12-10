@@ -3,8 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "My Gatsby Site",
   },
-  plugins: [],
-  flags: {
-    DEV_SSR: true
-  }
+  plugins: []
 };
