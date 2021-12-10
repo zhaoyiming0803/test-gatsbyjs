@@ -4,4 +4,7 @@ module.exports = {
     title: "My Gatsby Site",
   },
   plugins: [],
+  flags: {
+    DEV_SSR: true
+  }
 };

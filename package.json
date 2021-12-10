@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@authing/react-ui-components": "^2.4.59",
     "gatsby": "^4.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
