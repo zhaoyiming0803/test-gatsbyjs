@@ -26,11 +26,15 @@ export async function getServerData() {
   }
 }
 
+function onLogin (userInfo) {
+  console.log('userInfo: ', userInfo)
+}
+
 const SSRPage = ({ serverData }) => (
   <main>
     <h1>SSR Page with Dogs</h1>
     <img alt="Happy dog" src={serverData.message} />
-    <AuthingGuard appId={appId} config={authingConfig}></AuthingGuard>
+    <AuthingGuard appId={appId} config={authingConfig} onLogin={onLogin}></AuthingGuard>
   </main>
 )
 
